@@ -1,0 +1,122 @@
+/* Write your CSS here */
+.similar-product-item {
+  width: 65%;
+  /* border: 2px solid blue; */
+  font-family: 'Roboto';
+  margin-right: 65px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+.similar-product-image {
+  /* height: 100px; */
+  width: 100%;
+  border-radius: 8px;
+}
+.similar-product-name {
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 500;
+  margin-top: 11px;
+  margin-bottom: 0;
+}
+.similar-product-made-by {
+  color: #475569;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.similar-product-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.similar-product-price {
+  font-size: 22px;
+  color: #1e293b;
+  /* border: 2px solid black; */
+  font-weight: bold;
+}
+.similar-product-star-rating {
+  /* border: 2px solid black; */
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 62px;
+  border-radius: 7px;
+}
+.similar-product-no-of-stars {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0;
+}
+.similar-product-star-image {
+  height: 17px;
+  width: 17px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-product-item {
+    width: 25%;
+    /* border: 2px solid blue; */
+    font-family: 'Roboto';
+    margin-right: 65px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .similar-product-image {
+    /* height: 100px; */
+    width: 100%;
+    border-radius: 8px;
+  }
+  .similar-product-name {
+    font-size: 17px;
+    color: #171f46;
+    font-weight: 500;
+    margin-top: 11px;
+    margin-bottom: 0;
+  }
+  .similar-product-made-by {
+    color: #475569;
+    font-size: 17px;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+  .similar-product-rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+  }
+  .similar-product-price {
+    font-size: 18px;
+    color: #1e293b;
+    /* border: 2px solid black; */
+    font-weight: bold;
+  }
+  .similar-product-star-rating {
+    /* border: 2px solid black; */
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+    width: 62px;
+    border-radius: 7px;
+  }
+  .similar-product-no-of-stars {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0;
+  }
+  .similar-product-star-image {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+  }
+}
